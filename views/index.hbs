@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RVP</title>
+    <link rel="stylesheet" href="/static/css/page1.css">
+
+  </head>    
+  
+  <body>
+    <div class="body"></div>
+    <div>
+      <img class="image" 
+        src=""/>
+    </div>
+    
+    <div><img src="/static/images/travelwithus.jpeg" height="480px" width="550px"></div>
+    <div>
+
+    </div>
+    <div class="quote"><pre><b>                           "THE WORLD 
+                            IS A BOOK
+                           AND THOSE
+                          WHO DO NOT 
+                          TRAVEL READ
+                             ONLY
+                          ONE PAGE"</b></pre></div>
+
+    <button class="open-button" onclick="openForm()">
+      <b><center>LOGIN/SIGNUP</center></b>
+    </button>
+    
+    
+    <div class="travel"></div> 
+    <script>
+      async function load(){
+        let request=new Request("/static/front.json")
+        let response=await fetch(request)
+        let obj=await response.json()
+        n(obj)
+        n1(obj)
+        n2(obj)
+        n3(obj)
+        n4(obj)
+        n5(obj)
+        n6(obj)
+        n7(obj)
+        n8(obj)
+        n9(obj)
+        n10(obj)
+        n11(obj)
+        n12(obj)
+        n13(obj)
+        n14(obj)
+        n15(obj)
+        n15(obj)
+        n16(obj)
+        n17(obj)
+        n18(obj)
+        n19(obj)
+        n20(obj)
+        n21(obj)
+        n22(obj)
+        n23(obj)
+        n24(obj)
+        n25(obj)
+        n26(obj)
+        n27(obj)
+        n28(obj)
+      }
+
+      function n(obj1){
+        let div=document.querySelector(".travel")
+        div.textContent=obj1['travel1']
+      }
+      function n1(obj1){
+        let div1=document.querySelector(".h1")
+        div1.textContent=obj1['travel3']
+      }
+      function n2(obj1){
+        let div2=document.querySelector(".airportaccess")
+        div2.textContent=obj1['travel4']
+      }
+      function n3(obj1){
+        let div3=document.querySelector(".accomodation")
+        div3.textContent=obj1['travel5']
+      }
+      function n4(obj1){
+        let div4=document.querySelector(".gettinghere")
+        div4.textContent=obj1['travel6']
+      }
+      function n5(obj1){
+        let div5=document.querySelector(".h2")
+        div5.textContent=obj1['travel7']
+      }
+      function n6(obj1){
+        let div6=document.querySelector(".person1")
+        div6.textContent=obj1['travel8']
+      }
+      function n7(obj1){
+        let div7=document.querySelector(".person2")
+        div7.textContent=obj1['travel9']
+      }
+      function n8(obj1){
+        let div8=document.querySelector(".person3")
+        div8.textContent=obj1['travel10']
+      }
+      function n9(obj1){
+        let div9=document.querySelector(".pos")
+        div9.textContent=obj1['travel11']
+      }
+      function n10(obj1){
+        let div10=document.querySelector(".abcde")
+        div10.textContent=obj1['travel12']
+      }
+      function n11(obj1){
+        let div11=document.querySelector(".loc")
+        div11.textContent=obj1['travel13']
+      }
+      function n12(obj1){
+        let div12=document.querySelector(".call")
+        div12.textContent=obj1['travel14']
+      }
+      function n13(obj1){
+        let div13=document.querySelector(".time")
+        div13.textContent=obj1['travel15']
+      }
+      function n14(obj1){
+        let div14=document.querySelector(".image")
+        div14.src="/static/images//pic7.avif" 
+      }
+       function n15(obj1){
+        let div15=document.querySelector(".class1")
+        div15.src="/static/images/pic9.jpeg" 
+      }
+       function n16(obj1){
+        let div16=document.querySelector(".class")
+        div16.src="/static/images/pic11.jpeg" 
+      }
+       function n18(obj1){
+        let div18=document.querySelector(".class2")
+        div18.src="/static/images/pic15.jpeg" 
+      }
+       function n17(obj1){
+        let div17=document.querySelector(".class3")
+        div17.src="/static/images/accomodation.jpeg" 
+      }
+      function n19(obj1){
+        let div19=document.querySelector(".circle2")
+        div19.src="/static/images/person3.jfif" 
+      }
+      function n20(obj1){
+        let div20=document.querySelector(".picture")
+        
+        div20.src="/static/images/location.png" 
+      }
+      function n21(obj1){
+        let div21=document.querySelector(".picture2")
+        div21.src="/static/images/call.png" 
+      }
+      function n22(obj1){
+        let div22=document.querySelector(".picture3")
+        div22.src="/static/images/clock.png" 
+      }
+      function n23(obj1){
+        let div23=document.querySelector(".circle1")
+        div23.src="/static/images/person2.jfif" 
+      }
+      function n24(obj1){
+        let div24=document.querySelector(".circle")
+        div24.src="/static/images/person1.jfif" 
+      }
+      function n25(obj1){
+        let div25=document.querySelector(".vishu")
+        div25.src="/static/images/vishu.jpeg" 
+      }
+      function n26(obj1){
+        let div26=document.querySelector(".runi")
+        div26.src="/static/images/runi.jpeg" 
+      }
+      function n27(obj1){
+        let div27=document.querySelector(".me")
+        div27.src="/static/images/me.jpeg" 
+      }
+      function n28(obj1){
+        let div28= document.querySelector(".p1")
+        div13.textContent=obj1['travel17'] 
+      }
+
+
+
+      load()
+    </script>
+
+
+
+    <script>
+     function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";}
+
+   
+
+  </script>
+
+    
+    
+<div class="p1" >
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspv&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRVP  is a destination site that offers novel 
+          authentic &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp experience .Read some tips 
+   that will help  better navigate &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthe local 
+          culture and fully enjoy your time in RVP.
+   
+</div> 
+
+<hr style="width:100%", size="3", color=black> 
+<img class="class1" src=""width="360px"height="600px"id="abc">
+<img class="class" src="" id="bda1" width="800px"height="300px" >
+<img class="class2"src=""width="800px"height="300px" id="ss2">
+<img class="class3" src=""width="340px"height="600px"id="ss3">
+
+<a href="http://localhost:8080/gettingaround"<h1 class="h1"> </h1></a>
+<a href="http://localhost:8080/airportaccess"<h2 class="airportaccess"></h2></a>
+<a href="http://localhost:8080/accomodation"<h3 class="accomodation"></h3></a>
+<a href="http://localhost:8080/gettinghere"<h4 class="gettinghere"></h4></a>
+
+<p class="h2" ></p>
+<div class="box"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+<div class="box5"></div>
+<div class="p2"><pre>𓂀 𝓕𝒾𝓇𝓈𝓉 𝓉𝒾𝓂𝑒 𝓘 𝓌𝑒𝓃𝓉 
+𝒻𝑜𝓇𝓉𝓇𝑒𝓀.𝒯𝒽𝒾𝓈 𝓉𝓇𝑒𝓀 𝑔𝒶𝓋𝑒 
+𝓂𝑒 𝒷𝑒𝓈𝓉 𝑒𝓍𝓅𝑒𝓇𝒾𝑒𝓃𝒸𝑒𝓈 𝒶𝓃𝒹 
+𝓈𝑜𝓂𝑒 𝓃𝑒𝓌 𝒻𝓇𝒾𝑒𝓃𝒹𝓈.𝑔𝓊𝒾𝒹𝑒𝓈 
+𝓌𝑒𝓇𝑒 𝓋𝑒𝓇𝓎 𝒽𝑒𝓁𝓅𝒻𝓊𝓁 𝒶𝓃𝒹 
+𝒻𝓇𝒾𝑒𝓃𝒹𝓁𝓎.𓂀</pre></div>
+<div><img class="circle" src=""> </div>
+<div class="person1"><pre>  </pre>
+</div>
+<div class="p3"><pre>
+𝒯𝒽𝑒 𝓉𝓇𝒾𝓅 𝓌𝒶𝓈 𝓅𝑒𝓇𝒻𝑒𝒸𝓉𝓁𝓎 
+𝑜𝓇𝑔𝒶𝓃𝒾𝓏𝑒𝒹.𝓔𝓋𝑒𝓇𝓎𝓉𝒽𝒾𝓃𝑔 
+𝓌𝒶𝓈 𝓈𝒸𝒽𝑒𝒹𝓊𝓁𝑒𝒹 𝓈𝑜 𝒸𝑜𝓇𝓇𝑒𝒸𝓉𝓁𝓎 
+𝓉𝒽𝒶𝓉 𝓌𝑒 𝒸𝑜𝓋𝑒𝓇𝑒𝒹 𝒶𝓁𝓁 𝓉𝒽𝑒
+𝓅𝑜𝒾𝓃𝓉𝓈 𝑜𝒻 𝒶𝓉𝓉𝓇𝒶𝒸𝓉𝒾𝑜𝓃.𓂀></pre></div> 
+<div><img class="circle1" src="" </div>
+<div class="person2"><pre></pre></div>
+<div class="p4"><pre>𓂀 𝓘𝓉 𝓌𝒶𝓈 𝒶 𝑔𝓇𝑒𝒶𝓉 
+𝑒𝓍𝓅𝑒𝓇𝒾𝑒𝓃𝒸𝑒 𝓌𝒾𝓉𝒽 𝓇𝓋𝓅 
+𝓇𝑒𝑔𝒶𝓇𝒹𝒾𝓃𝑔 𝑜𝓊𝓇 𝒯𝒽𝒶𝒾𝓁𝒶𝓃𝒹 
+𝓉𝓇𝒾𝓅. 𝒯𝒽𝑒𝓎 𝓅𝓇𝑜𝓋𝒾𝒹𝑒𝒹 𝓊𝓈 
+𝑒𝓋𝑒𝓇𝓎𝓉𝒽𝒾𝓃𝑔 𝓅𝓇𝑜𝓂𝒾𝓈𝑒𝒹 𝓉𝑜 
+𝓊𝓈 𓂀</pre></div> 
+<div ><img class="circle2" src="" alt=""></div>
+<div class="person3"><pre></div></body></html></pre>
+<div class="box7"></div>
+
+<div class="xyz">                             <b>TERMS & AGREEMENTS</b>
+
+<pre> 
+Your contract is with RVP Pvt.Ltd. A contract 
+exists between us when we have confirmed you 
+on our tour of your choice and we have received 
+your signed booking form and deposits. All the 
+relevant section must be correctly and fully 
+completed.We can only accept booking form signed
+as this confirms that you and other people on the 
+tour accept our booking terms and condition and 
+are entering into the contract.</div></pre>
+
+<h4 class="pos"><b></b> </h4>
+<div class="abcde"><b></b></div>
+<div class="av"><p align="left">Contact us to make 
+  your travel arrangement more 
+  smoother <br>and as per your wish ,
+  to get more information 
+  about any tour<br> you interested in 
+  .Our operators will provide you 
+  with at the<br> information about your 
+  future journey .We aim at providing 
+  our<br> best and every effort we can give in.</div></p>
+
+  <div><img class="picture" src="" alt=""></div>
+  <div><img class="picture2" src="" alt=""></div>
+  <div><img class="picture3" src="" alt="">
+  </div>
+  <div class="loc"></div>
+  <div class="call"></div>
+  <div class="time"></div>
+  <div><img class="vishu" src="" alt=""></div>
+  <div><img class="runi" src="" alt=""></div>
+  <div><img class="me" src="" alt=""></div>
+  <div class="card"></div>
+  <section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>&nbsp;
+        <span>U</span>
+        <span>s</span>
+    </h1>
+
+    <div class="row">
+
+       
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+  
+
+<div class="form-popup" id="myForm">
+      <form action="/ff" class="form-container" method="post">
+        <h1><b>Login</b></h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="id" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="pass"
+          required
+        />
+
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">
+          Close
+        </button>
+      </form>
+  </body>
+</html>

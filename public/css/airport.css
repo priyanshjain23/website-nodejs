@@ -1,0 +1,161 @@
+.section {
+      position: relative;
+      height: 115vh;
+    }
+
+    .section .section-center {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    #booking {
+      font-family: "Lato", sans-serif;
+      background-image: url("/static/images/flight2.jpg");
+      height: 830px;
+      background-size: cover;
+      background-position: center;
+      color: #191a1e;
+    }
+
+    .booking-form {
+      position: relative;
+      background: #fff;
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+      padding: 25px 25px 25px;
+      border-radius: 4px;
+    }
+
+    .booking-form .form-group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .booking-form .form-control {
+      background-color: #fff;
+      width: 200px;
+      height: 50px;
+      padding: 0px 15px;
+      padding-top: 15px;
+      color: #191a1e;
+      border: 2px solid #dfe5e9;
+      font-size: 15px;
+      font-weight: 700;
+      border-radius: 4px;
+    }
+
+    .form2 {
+      background-color: #fff;
+      width: 138px;
+      height: 50px;
+      padding: 0px 15px;
+      padding-top: 15px;
+      color: #191a1e;
+      border: 2px solid #dfe5e9;
+      font-size: 15px;
+      font-weight: 700;
+      border-radius: 4px;
+    }
+
+    .booking-form select.form-control + .select-arrow {
+      position: absolute;
+      right: 6px;
+      bottom: 6px;
+      width: 32px;
+      line-height: 32px;
+      height: 32px;
+      text-align: center;
+      pointer-events: none;
+      color: #dfe5e9;
+      font-size: 14px;
+    }
+
+    .booking-form select.form-control + .select-arrow:after {
+      content: "\279C";
+      display: block;
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+
+    .booking-form .form-label {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      /* line-height: 24px; */
+      height: 24px;
+      font-size: 12px;
+      color: #98c9ee;
+    }
+
+    .booking-form .form-checkbox input {
+      position: absolute !important;
+      margin-left: -9999px !important;
+      visibility: hidden !important;
+    }
+
+    .booking-form .form-checkbox label {
+      position: relative;
+      padding-top: 4px;
+      padding-left: 30px;
+      font-weight: 700;
+      color: #191a1e;
+    }
+
+    .booking-form .form-checkbox input + span {
+      position: absolute;
+      left: 2px;
+      top: 4px;
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border: 2px solid #dfe5e9;
+      border-radius: 50%;
+    }
+
+    .booking-form .submit-btn {
+      color: #fff;
+      background-color: #4fa3e3;
+      font-weight: 400;
+      height: 50px;
+      font-size: 18px;
+      border: none;
+      width: 88.5%;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .booking-cta {
+      display: inline-block;
+    }
+    .columns {
+      display: inline-block;
+      padding-right: 9%;
+    }
+    .cols {
+      display: inline-block;
+      margin-right: 3%;
+      padding-right: 7%;
+    }
+    .booking-form {
+      margin-left: 45px;
+      background-color: rgb(239, 239, 218);
+    }
+    .heading {
+      color: #4a2b05dd;
+
+      position: absolute;
+      bottom: 455px;
+      left: 150px;
+      font-size: 55px;
+    }
+    .font {
+      font-weight: bold;
+      left: 150px;
+    }
